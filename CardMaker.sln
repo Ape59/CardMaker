@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMaker", "CardMaker\CardMaker.csproj", "{B1A8AE86-001F-4E57-AF5E-090594CE35A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMakerLib", "CardMakerLib\CardMakerLib.csproj", "{01921448-5E22-4204-A94A-C5D9524C5188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardMakerForms", "CardMakerForms\CardMakerForms.csproj", "{EDECA120-999F-4017-BDB7-1F0BB2CFF596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A8AE86-001F-4E57-AF5E-090594CE35A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{01921448-5E22-4204-A94A-C5D9524C5188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01921448-5E22-4204-A94A-C5D9524C5188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01921448-5E22-4204-A94A-C5D9524C5188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01921448-5E22-4204-A94A-C5D9524C5188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDECA120-999F-4017-BDB7-1F0BB2CFF596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDECA120-999F-4017-BDB7-1F0BB2CFF596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDECA120-999F-4017-BDB7-1F0BB2CFF596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDECA120-999F-4017-BDB7-1F0BB2CFF596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

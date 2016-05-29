@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CardMakerData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Cards>
+    <Card>
+      <ID>24e52073-baac-4c4b-aa55-11cc3fa50a86</ID>
+      <Group>test</Group>
+      <Name>karte 1</Name>
+      <Description>beschreibung 1</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>6258c88b-a554-481f-ab3d-3e9bd6dbdacc</ID>
+      <Group>test</Group>
+      <Name>karte 2</Name>
+      <Description>beschreibung 2</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>30ba30f6-99af-4cb6-a826-6f8d98a48fed</ID>
+      <Group>test</Group>
+      <Name>karte 3</Name>
+      <Description>beschreibung 3</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>f9c872fc-261e-4fee-9225-001e42f3eccb</ID>
+      <Group>test</Group>
+      <Name>karte 4</Name>
+      <Description>beschreibung 4</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>2b7f1110-fd42-43d8-b617-0a6701bf9130</ID>
+      <Group>test</Group>
+      <Name>karte 5</Name>
+      <Description>beschreibung 5</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>e306dbf0-a8a8-4be2-b7d4-1b7f31ee0d24</ID>
+      <Group>test</Group>
+      <Name>karte 6</Name>
+      <Description>beschreibung 6</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>10b5b6db-b1b4-45fc-8de5-4e8066565640</ID>
+      <Group>Kings Cup</Group>
+      <Name>Ace (Waterfall)</Name>
+      <Description>Flaschen ansetzen und nacheinander aufhören zu trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>add571d1-e29b-4c41-b0b7-0e78e746a05b</ID>
+      <Group>Kings Cup</Group>
+      <Name>Two (You)</Name>
+      <Description>Wähle einen Spieler, der trinken muss.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>c46fd8df-f232-451e-9162-ca7605cf3983</ID>
+      <Group>Kings Cup</Group>
+      <Name>Three (Me)</Name>
+      <Description>Du musst selbst trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>1f8fea43-e47f-4008-8c7c-ea6e10cc526d</ID>
+      <Group>Kings Cup</Group>
+      <Name>Four (Whores)</Name>
+      <Description>Alle Frauen müssen trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>0f96cb6c-f581-4ee2-94b6-21a574e3e32d</ID>
+      <Group>Kings Cup</Group>
+      <Name>Five (Dance)</Name>
+      <Description>Führe eine Tanzbewegung auf. Der nächste muss alle Tanzbewegungen nachholen und eine weitere hinzufügen. Bei einem Fehlschlag trinkt derjenige.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>7c829f8e-4325-47d8-8d6d-6bba3195ae9b</ID>
+      <Group>Kings Cup</Group>
+      <Name>Six (Dicks)</Name>
+      <Description>Alle Männer müssen trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>05e33e52-c9db-49cf-9966-cd319b2f9d68</ID>
+      <Group>Kings Cup</Group>
+      <Name>Seven (Heaven)</Name>
+      <Description>Alle Spieler müssen die Hänge hochheben. Der letzte trinkt.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>e6d7795c-b14d-4c5b-9fd2-4b1e13a738b4</ID>
+      <Group>Kings Cup</Group>
+      <Name>Eight (Mate)</Name>
+      <Description>Wähle einen Trinkpartner. Wenn einer von euch trinken muss, muss der andere auch trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>dc4a27df-9807-43ac-b5ed-13fee816a69d</ID>
+      <Group>Kings Cup</Group>
+      <Name>Nine (Rhyme)</Name>
+      <Description>Nenne ein Wort. Der Reihe nach muss der nächste Spieler ein Reim finden. Bei doppelten Wörtern oder Fehlschlägen muss derjenige trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>6c580ebb-aca8-4c3d-a777-b10c2d215716</ID>
+      <Group>Kings Cup</Group>
+      <Name>Jack (Fill cup)</Name>
+      <Description>Fülle den Becher mit einem Getränk deiner Wahl. Wenn das die letzte Karte dieser Art ist, musst du den Becher trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>bbd61722-c18d-4256-8e4a-912b7c19540a</ID>
+      <Group>Kings Cup</Group>
+      <Name>Queen (Question)</Name>
+      <Description>Wenn du jemandem eine Frage stellst und derjenige diese beantwortet, muss er trinken.</Description>
+      <ImagePath />
+    </Card>
+    <Card>
+      <ID>687424e2-009f-49f3-886b-488e4621acb3</ID>
+      <Group>Kings Cup</Group>
+      <Name>King (rule)</Name>
+      <Description>Erfinde eine Regel, die jeder einhalten muss. Bei Regelbruch muss derjenige trinken.</Description>
+      <ImagePath />
+    </Card>
+  </Cards>
+  <Decks>
+    <Deck>
+      <ID>72ff6109-94fa-414a-8e65-8bedcaa94151</ID>
+      <Name>King's cup</Name>
+      <Description>Ein beliebtes Saufspiel.</Description>
+      <CardIDs>
+        <string>05e33e52-c9db-49cf-9966-cd319b2f9d68</string>
+        <string>05e33e52-c9db-49cf-9966-cd319b2f9d68</string>
+        <string>05e33e52-c9db-49cf-9966-cd319b2f9d68</string>
+        <string>05e33e52-c9db-49cf-9966-cd319b2f9d68</string>
+        <string>0f96cb6c-f581-4ee2-94b6-21a574e3e32d</string>
+        <string>0f96cb6c-f581-4ee2-94b6-21a574e3e32d</string>
+        <string>0f96cb6c-f581-4ee2-94b6-21a574e3e32d</string>
+        <string>0f96cb6c-f581-4ee2-94b6-21a574e3e32d</string>
+        <string>10b5b6db-b1b4-45fc-8de5-4e8066565640</string>
+        <string>10b5b6db-b1b4-45fc-8de5-4e8066565640</string>
+        <string>10b5b6db-b1b4-45fc-8de5-4e8066565640</string>
+        <string>10b5b6db-b1b4-45fc-8de5-4e8066565640</string>
+        <string>1f8fea43-e47f-4008-8c7c-ea6e10cc526d</string>
+        <string>1f8fea43-e47f-4008-8c7c-ea6e10cc526d</string>
+        <string>1f8fea43-e47f-4008-8c7c-ea6e10cc526d</string>
+        <string>1f8fea43-e47f-4008-8c7c-ea6e10cc526d</string>
+        <string>687424e2-009f-49f3-886b-488e4621acb3</string>
+        <string>687424e2-009f-49f3-886b-488e4621acb3</string>
+        <string>687424e2-009f-49f3-886b-488e4621acb3</string>
+        <string>687424e2-009f-49f3-886b-488e4621acb3</string>
+        <string>6c580ebb-aca8-4c3d-a777-b10c2d215716</string>
+        <string>6c580ebb-aca8-4c3d-a777-b10c2d215716</string>
+        <string>6c580ebb-aca8-4c3d-a777-b10c2d215716</string>
+        <string>6c580ebb-aca8-4c3d-a777-b10c2d215716</string>
+        <string>7c829f8e-4325-47d8-8d6d-6bba3195ae9b</string>
+        <string>7c829f8e-4325-47d8-8d6d-6bba3195ae9b</string>
+        <string>7c829f8e-4325-47d8-8d6d-6bba3195ae9b</string>
+        <string>7c829f8e-4325-47d8-8d6d-6bba3195ae9b</string>
+        <string>add571d1-e29b-4c41-b0b7-0e78e746a05b</string>
+        <string>add571d1-e29b-4c41-b0b7-0e78e746a05b</string>
+        <string>add571d1-e29b-4c41-b0b7-0e78e746a05b</string>
+        <string>add571d1-e29b-4c41-b0b7-0e78e746a05b</string>
+        <string>bbd61722-c18d-4256-8e4a-912b7c19540a</string>
+        <string>bbd61722-c18d-4256-8e4a-912b7c19540a</string>
+        <string>bbd61722-c18d-4256-8e4a-912b7c19540a</string>
+        <string>bbd61722-c18d-4256-8e4a-912b7c19540a</string>
+        <string>c46fd8df-f232-451e-9162-ca7605cf3983</string>
+        <string>c46fd8df-f232-451e-9162-ca7605cf3983</string>
+        <string>c46fd8df-f232-451e-9162-ca7605cf3983</string>
+        <string>c46fd8df-f232-451e-9162-ca7605cf3983</string>
+        <string>dc4a27df-9807-43ac-b5ed-13fee816a69d</string>
+        <string>dc4a27df-9807-43ac-b5ed-13fee816a69d</string>
+        <string>dc4a27df-9807-43ac-b5ed-13fee816a69d</string>
+        <string>dc4a27df-9807-43ac-b5ed-13fee816a69d</string>
+        <string>e6d7795c-b14d-4c5b-9fd2-4b1e13a738b4</string>
+        <string>e6d7795c-b14d-4c5b-9fd2-4b1e13a738b4</string>
+        <string>e6d7795c-b14d-4c5b-9fd2-4b1e13a738b4</string>
+        <string>e6d7795c-b14d-4c5b-9fd2-4b1e13a738b4</string>
+      </CardIDs>
+    </Deck>
+  </Decks>
+</CardMakerData>

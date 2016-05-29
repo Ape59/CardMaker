@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDECA120-999F-4017-BDB7-1F0BB2CFF596}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CardMakerForms</RootNamespace>
+    <AssemblyName>CardMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCards.Designer.cs">
+      <DependentUpon>FormCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChanger.cs" />
+    <Compile Include="FormDecks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDecks.Designer.cs">
+      <DependentUpon>FormDecks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditCard.Designer.cs">
+      <DependentUpon>FormEditCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditDeck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditDeck.Designer.cs">
+      <DependentUpon>FormEditDeck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGame.Designer.cs">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectDeck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectDeck.Designer.cs">
+      <DependentUpon>FormSelectDeck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCards.resx">
+      <DependentUpon>FormCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDecks.resx">
+      <DependentUpon>FormDecks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditCard.resx">
+      <DependentUpon>FormEditCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditDeck.resx">
+      <DependentUpon>FormEditDeck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGame.resx">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectDeck.resx">
+      <DependentUpon>FormSelectDeck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CardMakerLib\CardMakerLib.csproj">
+      <Project>{01921448-5e22-4204-a94a-c5d9524c5188}</Project>
+      <Name>CardMakerLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abbrechen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loeschen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pfeil_hoch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pfeil_links.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pfeil_rechts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pfeil_runter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raster_minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raster_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speichern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trennen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verbinden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verzeichnis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zahnrad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_plus.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
